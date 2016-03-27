@@ -1,3 +1,4 @@
+/* general */
 body {
   overflow-y:scroll;
 }
@@ -12,9 +13,16 @@ h2 {
   margin-top:0; 
 }
 
-#search {
-  max-width: 600px;
-  margin: 40px auto 80px auto;
+/* specific */
+.input-group-addon.primary {
+  color: rgb(255, 255, 255);
+  background-color: rgb(50, 118, 177);
+  border-color: rgb(50, 118, 177);
+}
+
+.loading {
+  margin-top: 100px;
+  text-align: center;
 }
 
 .movie-container {
@@ -23,16 +31,13 @@ h2 {
   border-bottom: 1px solid #eee;
 }
 
-.info-container {
-
+.release {
+  font-weight: bold;
 }
 
-.poster-container {
-
-}
-
-.poster-container img {
-
+#search {
+  max-width: 600px;
+  margin: 40px auto 80px auto;
 }
 
 .tags {
@@ -42,19 +47,3 @@ h2 {
 .vote {
   padding:6px 8px;
 }
-
-.release {
-  font-weight: bold;
-}
-
-.loading {
-  margin-top: 100px;
-  text-align: center;
-}
-
-.input-group-addon.primary {
-  color: rgb(255, 255, 255);
-  background-color: rgb(50, 118, 177);
-  border-color: rgb(50, 118, 177);
-}
-
